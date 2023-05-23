@@ -16,5 +16,7 @@ struct NewsFeedView: View {
 struct NewsFeedView_Previews: PreviewProvider {
     static var previews: some View {
         NewsFeedView()
+            .preferredColorScheme(.dark)
+        //make this interface to dark mode
     }
 }
