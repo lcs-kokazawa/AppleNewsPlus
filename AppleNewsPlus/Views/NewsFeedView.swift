@@ -11,15 +11,21 @@ struct NewsFeedView: View {
     var body: some View {
         ScrollView {
             
-            NewsItemView()
-            
-            NewsItemView()
-            
-            NewsItemView()
-       
+            NewsItemView(image: "Farm",
+                         source: "The Globe And Mail",
+                         headline: "E. Jean Carroll seeks $10 million in demages from Trump over post",
+                         timePosted: "1h ago")
+            NewsItemView(image: "Caroll",
+                         source: "Reuters",
+                         headline: "E. Jean Carroll seeks $10 million in demages from Trump over post",
+                         timePosted: "1h ago")
+            NewsItemView(image: "Sheep",
+                         source: "The Guardian",
+                         headline: "News Zealand's ration of sheep to humans at lowest point in 170 years",
+                         timePosted: "1h ago")
         }
-       
-    
+        
+        
     }
 }
 
